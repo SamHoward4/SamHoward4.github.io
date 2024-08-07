@@ -1,8 +1,16 @@
+/* THE TOP BAR */
+.topbar{
+    background-color: rgb(79, 79, 79);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+/* THE TITLE */
 #title{
     margin-top: 10px;
-    margin-left: 10px;
-    margin-bottom: 0px;
-
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
 
 #title a{
@@ -14,30 +22,26 @@
     color: rgb(50, 50, 50);
     text-shadow: 3px 3px 5px white;
 }
-
+/* THE NAVIGATION BAR */
 .navbar{
     margin-top: 0px;
+    display:flex;
+
 }
 .navbar ul{
     list-style-type: none;
-    background-color: rgb(79, 79, 79);
-    border-radius: 10px;
-    overflow: hidden;
-    padding: 10px;
-    margin-top: 0px;
     align-self: center;
+    align-items: center;
 }
 .navbar a{
     color: white;
     text-decoration: none;
     padding: 10px;
-    display: block;
-    text-align: center;
     margin-right: 8px;
 }
 
 .navbar li{
-    float: left;
+    float: right;
 }
 
 .navbar a:hover{
@@ -45,9 +49,9 @@
     border-radius: 5px;
 
 }
-
+/* THE BODY */
 body{
     background-color:rgb(150, 150, 150);
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
