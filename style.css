@@ -1,9 +1,15 @@
 /* THE TOP BAR */
 .topbar{
-    background-color: rgb(79, 79, 79);
+    background-color: #484bff;
     border-radius: 10px;
+    border-color: #58b1ff;
+    border-style: solid;
     display: flex;
     justify-content: space-between;
+    max-height: 100px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 20px;
 }
 /* THE TITLE */
 #title{
@@ -11,6 +17,8 @@
     margin-left: 20px;
     margin-bottom: 10px;
     margin-right: 10px;
+    display: flex;
+    align-items: center;
 }
 
 #title a{
@@ -19,7 +27,7 @@
 }
 
 #title a:hover{
-    color: rgb(50, 50, 50);
+    color: rgb(0, 0, 0);
     text-shadow: 3px 3px 5px white;
 }
 /* THE NAVIGATION BAR */
@@ -45,13 +53,71 @@
 }
 
 .navbar a:hover{
-    background-color: hsl(0, 0%, 20%);
+    text-decoration: underline;
+    color:rgb(0, 0, 0);
+    background-color: rgb(88, 177, 255);
     border-radius: 5px;
 
 }
+/* PAGE COLOR */
+.pageColor{
+    align-self: center;
+    align-items: center;
+}
+
+.blueCircle
+/* MOUSE EFFECT CIRCLES */
+.circle{
+    height: 24px;
+    width: 24px;
+    border-radius: 24px;
+    background-color: #f1f1f1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 9999999;
+}
 /* THE BODY */
 body{
-    background-color:rgb(150, 150, 150);
-    margin-left: 10%;
-    margin-right: 10%;
+    background-color:rgb(72, 75, 255);
+    margin-top: 10px;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+body h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 120px;
+}
+
+body h2{
+    font-size: 70px;
+}
+
+/* #left {
+    width: 43%;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+#right {
+    width:43%;
+    float: right;
+    
+} */
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* main img {
+    /* margin-left: 0; 
+} */
+
+.bigText{
+    font-size: 5em;
+    animation: typing .8s steps(12, end) forwards;
 }
