@@ -4,6 +4,9 @@
     background-color: #fafaf9;
 }
 
-.text {
-    justify-content: center;
+.h1 {
+     text-align: center;
+}
+.h5 {
+     text-align: center;
 }
