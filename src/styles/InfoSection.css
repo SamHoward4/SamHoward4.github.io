@@ -1,0 +1,128 @@
+.info-container {
+    min-height: 100vh;
+    padding: 4rem 1.5rem;
+    background-color: #fafaf9;
+}
+
+.info-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.info-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #2d3748;
+    margin-bottom: 1rem;
+}
+
+.location-banner {
+    text-align: center;
+    background-color: #2d3748;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+}
+
+.property-description {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2.5rem;
+}
+
+.description-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.description-content p {
+    color: #4a5568;
+    line-height: 1.7;
+    font-size: 1.1rem;
+}
+
+.features-list {
+    background-color: #f8fafc;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.features-list h4 {
+    color: #2d3748;
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+.features-list ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.features-list li {
+    color: #4a5568;
+    padding: 1rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    line-height: 1.6;
+}
+
+.features-list li:before {
+    content: "•";
+    color: #4a5568;
+    position: absolute;
+    left: 0;
+}
+
+@media (max-width: 768px) {
+    .info-container {
+        padding: 2rem 1rem;
+        min-height: auto;
+    }
+
+    .info-title {
+        font-size: 1.8rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .location-banner {
+        font-size: 1rem;
+        padding: 0.8rem;
+        margin-bottom: 2rem;
+    }
+
+    .property-description {
+        padding: 1.25rem;
+    }
+
+    .description-content {
+        gap: 1.5rem;
+    }
+
+    .description-content p {
+        font-size: 1rem;
+    }
+
+    .features-list {
+        padding: 1.25rem;
+    }
+
+    .features-list li {
+        padding: 0.8rem 0;
+        padding-left: 1.5rem;
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .info-container {
+        padding: 1.5rem 0.75rem;
+    }
+
+    .info-title {
+        font-size: 1.5rem;
+    }
+}

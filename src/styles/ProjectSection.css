@@ -1,0 +1,9 @@
+.projects-container {
+    min-height: 80vh;
+    padding: 4rem 1.5rem;
+    background-color: #fafaf9;
+}
+
+.text {
+    justify-content: center;
+}
