@@ -5,13 +5,12 @@ const ContactSection = () => {
     return (
         <section id="contact" className="contact-container">
             <div className="contact-content">
-                <h2>Lorem Ipsum</h2>
+                <h2>Contact</h2>
                 <div className="contact-info">
                     <div className="contact-details">
-                        <h3>Lorem Ipsum</h3>
-                        <p>Lorem: ipsum@dolor.sit</p>
-                        <p>Amet: (123) 456-7890</p>
-                        <p>Consectetur: Lorem ipsum dolor sit</p>
+                        <p>You can email me directly or send me a message through this form:</p>
+                        <br></br>
+                        <p>email: sam.how44@gmail.com</p>
                     </div>
                     <form className="contact-form">
                         <input type="text" placeholder="Lorem" />
