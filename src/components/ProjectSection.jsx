@@ -7,7 +7,7 @@ const ProjectSection = () => {
             <div className="projects-content">
                 <h1>hmmm</h1> 
                 <h1>Looks like I'm working on this section right now, sorry! </h1>
-                <h1>--- sam (2/4/2025)</h1>
+                <h1>- sam (2/4/2025)</h1>
             </div>
         </section>
     );
