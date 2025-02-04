@@ -2,8 +2,6 @@ import React from 'react';
 import '../styles/LandingSection.css';
 
 import mountains from '/mountains.jpg';
-// import homeBg from '/home-bg.jpg';
-// import livingBg from '/living-bg.jpg';
 
 const handleNavClick = (sectionId) => {
     const element = document.getElementById(sectionId);
@@ -19,13 +17,10 @@ const LandingSection = () => {
             <div className="landing-container">
                 <div className="landing-overlay">
                     <div className="landing-content">
-                        <h1>Welcome</h1>
+                        <h1 className="welcome-text">Welcome</h1>
                         <div className="landing-address">
-                            <h2>Here you can find my projects and some other info</h2>
+                            <h2>Sam Howard's Projects and Contact Info</h2>
                         </div>
-                            <button onClick={() => handleNavClick('contact')}>
-                                <span>Contact Me</span>
-                             </button>
                         </div>
                     <div className="landing-images">
                         <img
@@ -33,16 +28,6 @@ const LandingSection = () => {
                             alt="Mountains"
                             className="landing-image"
                         />
-                        {/* <img
-                            src={homeBg}
-                            alt="Elegant interior design"
-                            className="hero-image"
-                        />
-                        <img
-                            src={livingBg}
-                            alt="Serene outdoor living space"
-                            className="hero-image"
-                        /> */}
                     </div>
                 </div>
             </div>

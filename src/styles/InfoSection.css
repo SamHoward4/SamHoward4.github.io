@@ -1,5 +1,5 @@
 .info-container {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     padding: 4rem 1.5rem;
     background-color: #fafaf9;
 }
@@ -9,6 +9,22 @@
     margin: 0 auto;
 }
 
+.info-grid {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.info-item{
+    display: flex;
+    align-items: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+}
+
+.info-item a{
+    color: black;
+    padding-left: 1em;
+}
 .info-title {
     text-align: center;
     font-size: 2.5rem;
@@ -26,11 +42,13 @@
     font-size: 1.2rem;
 }
 
-.property-description {
-    background: #ffffff;
+.info-description {
+    /* background: #ffffff; */
     border-radius: 16px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 2.5rem;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    /* padding: 2.5rem; */
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 
 .description-content {

@@ -1,12 +1,10 @@
 .projects-container {
-    min-height: 80vh;
+    /* min-height: 80vh; */
     padding: 4rem 1.5rem;
     background-color: #fafaf9;
 }
 
-.h1 {
-     text-align: center;
-}
-.h5 {
-     text-align: center;
+.projects-content {
+     max-width: 1200px;
+     margin: 0 auto;
 }
