@@ -17,7 +17,7 @@ const LandingSection = () => {
             <div className="landing-container">
                 <div className="landing-overlay">
                     <div className="landing-content">
-                        <h1>Welcome</h1>
+                        <h1 className="welcome-text">Welcome</h1>
                         <div className="landing-address">
                             <h2>Sam Howard's Projects and Contact Info</h2>
                         </div>
