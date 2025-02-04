@@ -13,11 +13,11 @@ const ContactSection = () => {
                         <p>email: sam.how44@gmail.com</p>
                     </div>
                     <form className="contact-form">
-                        <input type="text" placeholder="Lorem" />
-                        <input type="email" placeholder="Ipsum" />
-                        <input type="tel" placeholder="Dolor" />
-                        <textarea placeholder="Sit amet..."></textarea>
-                        <button type="submit">Lorem Ipsum</button>
+                        <input type="text" placeholder="This" />
+                        <input type="email" placeholder="Doesn't" />
+                        <input type="tel" placeholder="Work" />
+                        <textarea placeholder="Yet..."></textarea>
+                        <button type="submit">Send</button>
                     </form>
                 </div>
             </div>
