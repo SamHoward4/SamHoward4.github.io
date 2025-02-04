@@ -4,9 +4,7 @@
     background-color: #fafaf9;
 }
 
-.h1 {
-     text-align: center;
-}
-.h5 {
-     text-align: center;
+.projects-content {
+     max-width: 1200px;
+     margin: 0 auto;
 }
