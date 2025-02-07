@@ -33,9 +33,7 @@ const ContactSection = () => {
                 <h2>Contact</h2>
                 <div className="contact-info">
                     <div className="contact-details">
-                        <p>You can email me directly or send me a message through this form:</p>
-                        <br></br>
-                        <p>email: sam.how44@gmail.com</p>
+                        <p>Feel free to send me a message through this form.</p>
                     </div>
                     <form ref={form} onSubmit={sendEmail} className="contact-form">
                         <input name="from_name" type="text" placeholder="Your Name" required/>
