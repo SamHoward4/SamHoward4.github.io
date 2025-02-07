@@ -1,6 +1,11 @@
 .contact-container {
-    min-height: 100vh;
-    padding: 4rem 2rem;
+    /* min-height: 100vh; */
+    padding-top: 4em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 10em;
+    background-color: #fafaf9;
+
 }
 
 .contact-content {
